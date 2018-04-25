@@ -1,6 +1,6 @@
 import UIKit
 
-final class ___VARIABLE_moduleName___View: UIViewController {
+final class ___VARIABLE_moduleName___ViewController: UIViewController {
     var presenter: ___VARIABLE_moduleName___PresenterProtocol
 
     init(presenter: ___VARIABLE_moduleName___PresenterProtocol) {

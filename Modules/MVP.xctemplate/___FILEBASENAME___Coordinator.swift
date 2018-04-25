@@ -3,7 +3,7 @@ import protocol Swinject.Resolver
 
 final class ___VARIABLE_moduleName___Coordinator: Coordinator {
 
-    let resolver: Resolver
+    private let resolver: Resolver
 
     init(resolver: Resolver) {
         self.resolver = resolver

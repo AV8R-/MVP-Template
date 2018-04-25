@@ -6,6 +6,7 @@ final class ___VARIABLE_moduleName___Presenter {
     weak var delegate: ___VARIABLE_moduleName___PresenterDelegate?
 
     init() {
+    
     }
 }
 
