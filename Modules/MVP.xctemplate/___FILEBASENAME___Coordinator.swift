@@ -10,8 +10,8 @@ final class ___VARIABLE_moduleName___Coordinator: Coordinator {
     }
 
     func start() {
-        let view = resolver.resolve(___VARIABLE_moduleName___ViewProtocol.self)
-        view?.presenter.delegate = self
+        let view = resolver.resolve(___VARIABLE_moduleName___ViewProtocol.self)!
+        view.presenter.delegate = self
     }
 
 }

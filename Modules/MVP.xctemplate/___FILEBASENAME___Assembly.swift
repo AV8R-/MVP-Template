@@ -7,7 +7,7 @@ final class ___VARIABLE_moduleName___Assembly: Assembly {
             .initCompleted { (r, p) in
                 p.view = r.resolve(___VARIABLE_moduleName___ViewProtocol.self)
         }
-        container.autoregister(___VARIABLE_moduleName___ViewProtocol.self, initializer: ___VARIABLE_moduleName___View.init(presenter:))
+        container.autoregister(___VARIABLE_moduleName___ViewProtocol.self, initializer: ___VARIABLE_moduleName___ViewController.init(presenter:))
     }
 
 }

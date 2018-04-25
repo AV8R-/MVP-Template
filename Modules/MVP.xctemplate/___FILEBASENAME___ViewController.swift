@@ -13,6 +13,6 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController {
     }
 }
 
-extension ___VARIABLE_moduleName___View: ___VARIABLE_moduleName___ViewProtocol {
+extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___ViewProtocol {
 
 }
