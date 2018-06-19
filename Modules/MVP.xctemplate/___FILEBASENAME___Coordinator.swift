@@ -4,6 +4,7 @@ import protocol Swinject.Resolver
 final class ___VARIABLE_moduleName___Coordinator: Coordinator {
 
     private let resolver: Resolver
+    var eventHandler: CoordinationEventHandler?
 
     init(resolver: Resolver) {
         self.resolver = resolver
